@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="t d">
+<title id="t">一页作品说明的结构示意</title><desc id="d">原创模板演示：将用途、创作过程、使用方法和公开边界整理在一张纸上，没有真实作品或作者。</desc>
+<rect width="640" height="640" fill="#eeece3"/>
+<g stroke="#d9dbce" stroke-width="1"><path d="M0 80H640M0 160H640M0 240H640M0 320H640M0 400H640M0 480H640M0 560H640M80 0V640M160 0V640M240 0V640M320 0V640M400 0V640M480 0V640M560 0V640"/></g>
+<path d="M85 115h472v466H85z" fill="#dce4d6" transform="rotate(5 321 348)"/>
+<path d="M80 81h472v466H80z" fill="#fdfcf8" stroke="#bfc6b6" transform="rotate(-3 316 314)"/>
+<g transform="rotate(-3 316 314)">
+<path d="M115 123h8v25h-8z" fill="#9b4935"/><text x="139" y="143" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="16" fill="#292d29">AI 发电</text><text x="440" y="141" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="11" fill="#696d64">模板演示</text>
+<path d="M115 165H517" stroke="#dcded3"/>
+<text x="115" y="213" font-family="Songti SC,SimSun,serif" font-size="34" fill="#292d29">一页，讲清一件作品。</text>
+<text x="115" y="244" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="12" fill="#696d64">写下事实，留出理解的空间。</text>
+<g font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="13" fill="#9b4935"><text x="115" y="298">01</text><text x="152" y="298">给谁用</text><text x="115" y="347">02</text><text x="152" y="347">怎么做</text><text x="115" y="396">03</text><text x="152" y="396">怎么用</text><text x="115" y="445">04</text><text x="152" y="445">公开边界</text></g>
+<g stroke="#cdd2c4" stroke-width="3"><path d="M241 293H479M241 342H446M241 391H479M241 440H408"/></g>
+<path d="M115 480H517" stroke="#dcded3"/><text x="115" y="510" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="11" fill="#696d64">人工取舍 × AI 参与 × 使用条件</text>
+</g>
+<g transform="rotate(5 470 527)"><path d="M398 500h192v64H398z" fill="#f6f4ee" stroke="#9b4935"/><text x="415" y="526" fill="#9b4935" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="12">从一件公开作品开始</text><path d="M415 542h111" stroke="#9b4935"/></g>
+<text x="29" y="611" fill="#777d6e" font-size="10" font-family="Consolas,monospace" letter-spacing="2">AIFADIAN / WORK NOTES / 01</text>
+</svg>
