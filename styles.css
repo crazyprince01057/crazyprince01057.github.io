@@ -133,8 +133,8 @@ html:not(.js-ready) .menu-toggle{display:none}
 .section-head>p{max-width:330px;margin:0;color:var(--muted);font-size:13.5px;line-height:1.9}
 
 /* 剪刀裁切线：主要分节之间 */
-.template-section,.about-section,#join,.cooperate-section,.notes-section{position:relative}
-.template-section::before,.about-section::before,#join::before,.cooperate-section::before,.notes-section::before{
+.template-section,.about-section,#beta,#join,.cooperate-section,.notes-section{position:relative}
+.template-section::before,.about-section::before,#beta::before,#join::before,.cooperate-section::before,.notes-section::before{
   content:"✂";position:absolute;top:0;left:5%;right:5%;height:0;
   border-top:1.5px dashed var(--line-strong);
   color:var(--faint);font-size:14px;line-height:0;text-indent:-4px;letter-spacing:0;
@@ -479,4 +479,42 @@ html:not(.js-ready) .menu-toggle{display:none}
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
+}
+
+/* ---------- 内测工具（#beta） ---------- */
+#beta .principles{padding:0 0 48px}
+.beta-seal{
+  display:inline-block;margin-left:16px;vertical-align:middle;transform:rotate(-2deg);
+  background:var(--accent);color:var(--surface);border-radius:var(--radius-seal);
+  padding:6px 13px;font-family:var(--hand);font-size:15px;font-weight:400;letter-spacing:.16em;
+  box-shadow:inset 0 0 0 2px var(--surface),inset 0 0 0 3.5px var(--accent);
+}
+.beta-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:44px;align-items:start}
+.beta-grid .progress-note{margin-bottom:22px}
+.beta-hash{
+  margin:10px 0 0;font-family:var(--mono);font-size:11px;line-height:1.7;word-break:break-all;
+  color:var(--muted);background:var(--paper);border:1px dashed var(--line-strong);
+  border-radius:var(--radius-seal);padding:10px 12px;
+}
+.sample-card{
+  position:relative;background:var(--surface);border:1.5px solid var(--ink);border-radius:var(--radius-card);
+  padding:30px 30px 26px;box-shadow:5px 6px 0 var(--shadow);transform:rotate(-.4deg);
+}
+.sample-card h3{margin:0 0 8px;font-family:var(--serif);font-size:21px;letter-spacing:.03em}
+.sample-note{margin:0 0 18px;font-family:var(--hand);font-size:13px;color:var(--muted);line-height:1.8}
+.sample-group{margin-top:16px;padding-top:16px;border-top:1px dashed var(--line-strong)}
+.sample-group:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.sample-group h4{margin:0 0 10px;font-family:var(--serif);font-size:14.5px;letter-spacing:.05em}
+.sample-group h4::before{content:"§ ";font-family:var(--mono);font-size:11px;color:var(--accent)}
+.sample-list{display:flex;flex-wrap:wrap;gap:9px}
+.sample-list a{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--ink-soft);text-decoration:none;
+  border:1px dashed var(--line-strong);border-radius:var(--radius-seal);padding:6px 11px;background:var(--paper);
+  transition:border-color .18s,color .18s;
+}
+.sample-list a:hover{border-color:var(--accent);color:var(--accent)}
+.sample-readme{margin:16px 0 0}
+.sample-card .contact-note{margin-top:14px}
+@media(max-width:1050px){
+  .beta-grid{grid-template-columns:1fr}
 }
